@@ -1,0 +1,26 @@
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.pokemon-card {
+    display: flex;
+	flex-wrap: wrap;
+	align-items: space-between;
+	justify-content: center;
+	margin: 0 auto;
+	max-width: 1200px;
+    margin-bottom: 50px;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}

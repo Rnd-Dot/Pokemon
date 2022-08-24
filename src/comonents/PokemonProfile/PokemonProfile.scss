@@ -1,0 +1,18 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card_skills {
+    background-color: floralwhite;
+    border-radius: 20px;
+    box-shadow: 0 3px 15px rgb(100 100 100 / 50%);
+    margin: 10px;
+    padding: 70px;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 30px;
+}

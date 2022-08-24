@@ -1,0 +1,95 @@
+.min_stat {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    display: block;
+
+	.name {
+		margin-top: 5px;
+		font-size: 15px;
+		font-weight: 600;
+	}
+
+	.type {
+		margin-top: 5px;
+		font-size: 13px;
+		font-weight: 400;
+	}
+}
+
+.wrapper_card {
+    background-color: #eee;
+    border-radius: 20px;
+    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+	transform:  scale(1);
+	:hover {
+		transform:  scale(1);
+	}
+}
+
+.types {
+	display: flex;
+}
+
+.steel {
+	background: url(../../assets/elements/steel.svg) no-repeat top 2px center #f4f4f4;
+}
+
+.fire {
+	background: url(../../assets/elements/fire.svg) no-repeat top 2px center #f0a2a2;
+}
+
+.grass {
+	background: url(../../assets/elements/grass.svg) no-repeat top 2px center #DEFDE0;
+}
+
+.electric {
+	background: url(../../assets/elements/electric.svg) no-repeat top 2px center #FCF7DE;
+}
+
+.water, .ice {
+	background: url(../../assets/elements/water.svg) no-repeat top 2px center #DEF3FD;
+}
+
+.ground {
+	background: url(../../assets/elements/ground.svg) no-repeat top 2px center #f4e7da;
+}
+
+.rock {
+	background: url(../../assets/elements/rock.svg) no-repeat top 2px center #d5d5d4;
+}
+
+.fairy {
+	background: url(../../assets/elements/fairy.svg) no-repeat top 2px center #fceaff;
+}
+
+.poison {
+	background: url(../../assets/elements/poison.svg) no-repeat top 2px center #98d7a5;
+}
+
+.bug {
+	background: url(../../assets/elements/bug.svg) no-repeat top 2px center #f8d5a3;
+}
+
+.dragon {
+	background: url(../../assets/elements/dragon.svg) no-repeat top 2px center #97b3e6;
+}
+
+.psychic {
+	background: url(../../assets/elements/psychic.svg) no-repeat top 2px center #eaeda1;
+}
+
+.flying {
+	background: url(../../assets/elements/flying.svg) no-repeat top 2px center #F5F5F5;
+}
+
+.fighting {
+	background: url(../../assets/elements/fighting.svg) no-repeat top 2px center #E6E0D4;
+}
+
+.normal {
+	background: url(../../assets/elements/normal.svg) no-repeat top 2px center #F5F5F5;
+}
