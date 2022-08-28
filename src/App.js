@@ -4,7 +4,7 @@ import { getPokemons, getPokemonData, searchPokemon } from "./api/api"
 import "./App.scss"
 import { ReactComponent as Logo } from "./assets/logo/pokemon.svg"
 import { Route, Routes, Navigate, NavLink } from "react-router-dom"
-import PokemonProfile from "./comonents/PokemonProfile/PokemonProfile.js"
+import PokemonProfile from "./comonents/PokemonProfile/PokemonProfile"
 import { Button } from "@mui/material"
 
 
